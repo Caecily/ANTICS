@@ -16,8 +16,6 @@
     Modified by an item of equipment on the target’s person (e.g. ‘DROP that gun’), that piece of equipment must be dropped. If the prop is fragile it may instead be placed on the ground. If no duration is specified, they may immediately retrieve the item.
 ####EMOTE
     Modified by a feeling, the target must roleplay that feeling to the best of their ability (e.g. ‘EMOTE Rage’, ‘EMOTE Agreement’). EMOTE functions similarly to COMMAND, but gives the targetted player much greater discretion as to how the effect is portrayed.
-####EMPOWER
-    EMOTE Energized & Confident, SHIELD 1, NIX all ongoing negative effects on you. Also sets any personal variables to their maximum values. See a ref when it's next convenient.
 ####FADE
     Target disappears from view. They are affected by calls as normal, and can be detected indirectly (e.g. by SCANs, their voice, their contact with other players and objects, etc).
 ####FREEZE
@@ -36,8 +34,6 @@
     Target may not move away from the caller. If modified by a speed (e.g. ‘Tim PULL Jog’), target must approach the caller at that speed or greater. Caller may approach and retreat from the target.
 ####PUSH
     Target may not approach the caller. If modified by a speed (e.g. ‘Tim PUSH Jog’), target must move away from the caller at that speed or greater. Caller may approach and retreat from the target. If affected by a PUSH and a PULL simultaneously in a way which leaves you unclear on which way to move, perform only the effect with the highest speed. If both have the same speed, stand still.
-####REWIND
-    Modified by a number. NIX all calls taken in the last (number) seconds (including damage and DEFEAT). Forget the last (number) seconds.
 ####ROOT
     Target’s feet must stay in contact with the ground in their current position. While ROOTed, you respond ‘FAILED’ to other effects which would change your position.
 ####SCAN
