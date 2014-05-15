@@ -10,8 +10,6 @@
     Modified by an instruction, the target must perform the instruction to the best of their ability. This is distinct from NARRATE in that COMMAND can be NIXed, NOTED and so forth, and indicates an instruction to the character, whereas NARRATE instructions are always to the player.
 ####DEFEAT
     Target is 'killed', regardless of hits remaining. No amount of HEALing can remove this condition. Unlike SLAY, this indicates a narrative defeat which will eventually be recovered from.
-####DRAIN
-    Prevents the use of abilities (base hits and damage calls are unaffected). Also NIXs all ongoing effects on you, and sets any personal variables to 0.
 ####DROP
     Modified by an item of equipment on the targetâ€™s person (e.g. â€˜DROP that gunâ€™), that piece of equipment must be dropped. If the prop is fragile it may instead be placed on the ground. If no duration is specified, they may immediately retrieve the item.
 ####EMOTE
@@ -56,3 +54,38 @@
     Target falls over and cannot stand. Both feet should be off the ground at a point when the torso is on the ground, but in dirty areas players may instead drop to their knees. If no duration is specified, they may immediately stand again.
 ####VANISH
     Target disappears completely, raising their hand in the air and responding 'FAILED- Not Here' to all effects. If you are VANISHed by another character, see a ref. 
+
+##MetaCalls
+
+These are meta-calls which can be used by all players at all times where appropriate:
+####NARRATE
+    Players may use this at any time to describe details which would be obvious to characters, but may not be obvious to players for whatever reason (e.g.‘NARRATE The floor here is covered in soot’). This usage is similar to OC, except it conveys in-character information in a way which makes it clear it isn’t just you speaking. You should preemptively NARRATE interesting details to all players (e.g. ‘NARRATE My sword is covered in blood’). If someone NARRATEs a question to you, you must answer it immediately and truthfully (e.g. ‘NARRATE How many hits do you have?’). If someone NARRATEs an instruction to you, you must follow it to the best of your ability (e.g. ‘NARRATE You feel too weak to attack’). You can only NARRATE questions or commands if you have a skill which allows you to do so.
+####OC
+    Players may use this at any time to convey information relevant to other players either inside or outside of the game (eg ‘OC What does that call do?’, ‘OC I have to go in ten minutes’).
+####PAUSE
+    The game is temporarily halted and no actions may be taken. All players can use this call at any time with good reason. If lots of things are going on, call repeatedly, loudly and clearly until everyone has stopped what they’re doing. A ref will count the game back in once the situation has been dealt with.
+####TIME FAFF
+    All players who hear this should stay roughly where they are and refrain from moving forward with the plot. This is an excellent opportunity to air any grievances you may have with other characters, discuss your backstory/motivations/philosophy, double-check your plans, and go forth. This call can only be used by the organisers of the event. This lasts until the caller calls 'TIME IN'. TIME STOP
+    All players who hear this immediately call ‘TIME STOP’ once, stop what they’re doing, close their eyes, and keep quiet. They should listen attentively for further instruction and description of what happens. IC, no time passes, so characters are wholly unaware of anything that happens, or even that anything is amiss (unless told otherwise). This is mainly used by refs to convey detailed narration. This lasts until the caller calls 'TIME IN'.
+####WHAT DO I SEE?
+    This prompts a NARRATEd response from your target about their appearance.
+###Safewords
+
+These are meta-calls which convey dis/comfort with ongoing roleplay, and can be used by all players at all times.
+####RED
+    Optionally modified by a quality. Immediately stop any and all roleplaying involving the quality. The caller and others involved may go 'Not Here' and walk directly out of the game, if they wish. Remember that no one can compel you to roleplay a character you don't want to play at any time. If this does occur, characters remaining IC should improvise a narration which allows the game to continue with minimal disruption.
+####YELLOW
+    Optionally modified by a quality. Do not escalate roleplay involving the quality beyond its current form. Roleplay can continue, but all involved should be aware that the caller is roughly at the boundary of their comfort zone.
+####FRAK
+    The caller is entirely comfortable with the existing roleplay, and would be comfortable with it escalating further. This is not an instruction to escalate further- the decision is yours, and you should be mindful of others around you when deciding. 'FRAK' should be considered an IC swearword in all games.
+###Responses
+
+These are meta-calls which are used in response to another call which would otherwise affect you
+####DODGED
+    The caller heard a call you just gave, but was noticeably unaffected by it. In order to invoke this resistance, they have had to expend some limited resource (e.g. they can only DODGE the first such call per session) or meet some non-trivial criterion (e.g. they have to physically dodge an attack).
+####FAILED
+    The caller heard a call you just gave, but was noticeably unaffected by it. No amount of using this same call will have an effect on the target unless something else changes. This call is typically suffixed with a short explanation of why the call didn't work (e.g. 'FAILED- Ghost', 'FAILED- Invincible')
+####REFLECT
+    'DODGED, [repeat exact call back at the caller]'.
+####NOTED
+    The caller heard a call you just gave and was affected by it in a way which isn’t obvious (e.g. they have an ability which allows them to take all STUNS as ROOTs). In this case, using the same call on the target again may be more successful, or it may not. This should also be used when it looks like you may not have heard the initial call (e.g. you are hit by ROOT when standing still and have no intention of moving anyway). Finally, this is also the preferred response if someone thinks you’ve misinterpreted a rule, but you actually have a hidden ability which takes precedence over it (e.g. you can SLAY a helpless target in one second in a game where most people require ten seconds).
